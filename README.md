@@ -20,7 +20,7 @@ Although this is a fictional medical staffing agency, the data sets obtained for
 1.	Before any analysis, initial project management plan was drafted for the purpose of stakeholder communication. The project management plan included meeting schedules, milestones, and final deliverables proposal, outlining the project plan for accomplishing given business requirements.  
 
     <p align="center">
-      <img width="525" height="403" src="Images/PrjMgmt.jpg"/>
+      <img width="469" height="356" src="Images/PrjMgmt.jpg"/>
     </p>
     <p align="center">
       <em>A section from the project management plan highlighting<br>the projected schedule for completing this project.</em>
@@ -61,17 +61,17 @@ Although this is a fictional medical staffing agency, the data sets obtained for
 5.	Data visualizations were created in Tableau to complete the rest of the analysis. 
 
     <p align="center">
-      <img width="469" height="592" src="Images/histogram.jpg"/>
+      <img width="350" height="320" src="Images/histogram.jpg"/>
     </p>
     <p align="center">
-      <em>A box plot made in Tableau showing the distribution of influenza deaths within different age groups.</em>
+      <em>A box plot made in Tableau showing the distribution of influenza deaths<br>within different age groups.</em>
     </p>
     
     <p align="center">
-      <img width="469" height="592" src="Images/map.jpg"/>
+      <img width="490" height="300" src="Images/map.jpg"/>
     </p>
     <p align="center">
-      <em>A combination choropleth and graduated symbol map made in Tableau showing size of vulnerable populations (blue circles) within each states overlayed on the count of influenza deaths (yellow to red gradient).</em>
+      <em>A combination choropleth and graduated symbol map made in Tableau showing<br>size of vulnerable populations (blue circles) within each states overlayed<br>on the count of influenza deaths (yellow to red gradient).</em>
     </p>
     
 6.	Final report was created in a dashboard format within Tableau. Performed the final presentation for stakeholder in recorded video form. 
@@ -83,11 +83,23 @@ deaths, however, real impact only started to show when state rate reached at lea
 - The states with the highest concentration of vulnerable population are California, Florida, Texas, and New York. These states should be prioritized when sending medical staff for the season. 
 
 ### Deliverables
-[Interim Report](https://github.com/tiltonneena/InfluenzaSeason-Project/blob/main/InterimReport.pdf)
+### [Interim Report](https://github.com/tiltonneena/InfluenzaSeason-Project/blob/main/InterimReport.pdf)
 
-[Tableau Dashboard](https://public.tableau.com/app/profile/neena1744/viz/InfluenzaWorkbookII/InfluenzaMedicalPlanningStory)
+<p align="center">
+  <img width="300" height="210" src="Images/stackpaper.jpg"/>
+ </p>
 
-[Video Presentation](https://vimeo.com/652267376)
+### [Tableau Dashboard](https://public.tableau.com/app/profile/neena1744/viz/InfluenzaWorkbookII/InfluenzaMedicalPlanningStory)
+
+<p align="center">
+  <img width="300" height="250" src="Images/dashboard.jpg"/>
+ </p>
+    
+### [Video Presentation](https://vimeo.com/652267376)
+
+<p align="center">
+  <img width="300" height="250" src="Images/vimeo.jpg"/>
+</p>
 
 ### Next Steps
 This analysis did not cover the seasonality of the flu season for each state. Next steps will take this into consideration to draft the most optimal scheduling for sending temporary medical workers to each state.  
