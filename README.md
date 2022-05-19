@@ -17,16 +17,63 @@ Although this is a fictional medical staffing agency, the data sets obtained for
 - [Vaccination data by State - CDC](https://github.com/tiltonneena/InfluenzaSeason-Project/blob/main/Datasets/CDC_StateFluVaxData.csv)
 
 ### Methodology
-1.	Before any analysis, initial project management plan was drafted for the purpose of stakeholder communication. The project management plan included meeting schedules, milestones, and final deliverables proposal, outlining the project plan for accomplishing given business requirements. 
+1.	Before any analysis, initial project management plan was drafted for the purpose of stakeholder communication. The project management plan included meeting schedules, milestones, and final deliverables proposal, outlining the project plan for accomplishing given business requirements.  
 
-2.	Once a plan was drafted, the analysis began with finding publicly available datasets and vetting them for data integrity. 
+    <p align="center">
+      <img width="525" height="403" src="Images/PrjMgmt.jpg"/>
+    </p>
+    <p align="center">
+      <em>A section from the project management plan highlighting<br>the projected schedule for completing this project.</em>
+    </p>
 
-3.	After the process of vetting the reliability of datasets, the three selected datasets were cleaned, formatted to be consistent with one another, and fully integrated into one large dataset. 
+2.	Once a plan was drafted, the analysis began with finding publicly available datasets and vetting them for data integrity. Beyond them being from credible governmental sources, other data integrity factors were taken into consideration, such as the relevancy of the data, any potential biases present, data limitations, timeliness, and any other issues related to the data collection process.
+
+    <p align="center">
+      <img width="300" height="80" src="Images/UScensuslogo.jpg"/>
+    </p>
+   
+    <p align="center">
+      <img width="282" height="156" src="Images/CDClogo.jpg"/>
+    </p>
+
+3.	After the process of vetting the reliability of datasets, the three selected datasets were cleaned, formatted to be consistent with one another, and fully integrated into one large dataset.  
+
+    <p align="center">
+      <img width="514" height="134" src="Images/exl_integration.jpg"/>
+    </p>
 
 4.	Statistical analysis and hypothesis testing was performed on the sample data to find if there were any differences between vaccinated and unvaccinated groups. This was then followed by an interim report for stakeholders. 
 
+    <p align="center">
+      <img width="404" height="183" src="Images/tTest.jpg"/>
+    </p>
+    <p align="center">
+      <em>The two-sample t-test found that the death rates due to influenza in states with vaccination<br>rates below 35% was higher than the states with vaccination rates above 35%. </em>
+    </p>
+    
+    <p align="center">
+      <img width="469" height="592" src="Images/interimreport.jpg"/>
+    </p>
+    <p align="center">
+      <em>The interim report included descriptive analysis of the dataset, results of the hypothesis test,<br>and further plans for the remainder of the analysis.</em>
+    </p>
+
 5.	Data visualizations were created in Tableau to complete the rest of the analysis. 
 
+    <p align="center">
+      <img width="469" height="592" src="Images/histogram.jpg"/>
+    </p>
+    <p align="center">
+      <em>A box plot made in Tableau showing the distribution of influenza deaths within different age groups.</em>
+    </p>
+    
+    <p align="center">
+      <img width="469" height="592" src="Images/map.jpg"/>
+    </p>
+    <p align="center">
+      <em>A combination choropleth and graduated symbol map made in Tableau showing size of vulnerable populations (blue circles) within each states overlayed on the count of influenza deaths (yellow to red gradient).</em>
+    </p>
+    
 6.	Final report was created in a dashboard format within Tableau. Performed the final presentation for stakeholder in recorded video form. 
 
 ### Key Findings
