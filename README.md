@@ -1,4 +1,10 @@
+<p align="right">
+  <a href="https://tiltonneena.github.io/portfolio/">Back to Portfolio Homepage</a>
+</p>
+
 # Influenza Season in the U.S.
+### By Neena Tilton
+
 <p align="center">
   <img width="500" height="330" src="Images/influenza.jpg"/>
 </p>
@@ -103,3 +109,7 @@ deaths, however, real impact only started to show when state rate reached at lea
 
 ### Next Steps
 This analysis did not cover the seasonality of the flu season for each state. Next steps will take this into consideration to draft the most optimal scheduling for sending temporary medical workers to each state.  
+
+<p align="right">
+  <a href="https://tiltonneena.github.io/portfolio/">Back to Portfolio Homepage</a>
+</p>
