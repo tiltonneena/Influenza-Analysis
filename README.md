@@ -17,13 +17,13 @@ A medical staffing agency needs to proactively plan for sending temporary medica
 - **Tableau:** all of the visualizations and the final presentation for this project were created within this visualization software, including temporal forecasting, geospatial visualization, treemaps, and final dashboard. 
 
 ### Data Source
-Although this is a fictional medical staffing agency, the data sets obtained for this project were from real and publicly available governmental sources. 
+Although this is a fictional medical staffing agency, the data sets obtained for this project were from real and publicly-available government sources. 
 - [Influenza deaths by geography, time, age, and gender – CDC](https://github.com/tiltonneena/InfluenzaSeason-Project/blob/main/Datasets/CDC_InfluenzaDeaths.xlsx) 
 - [Population data by Geography – U.S. Census Bureau](https://github.com/tiltonneena/InfluenzaSeason-Project/blob/main/Datasets/USCensus_PopulationData.xlsx)
 - [Vaccination data by State - CDC](https://github.com/tiltonneena/InfluenzaSeason-Project/blob/main/Datasets/CDC_StateFluVaxData.csv)
 
 ### Methodology
-1.	Before any analysis, initial project management plan was drafted for the purpose of stakeholder communication. The project management plan included meeting schedules, milestones, and final deliverables proposal, outlining the project plan for accomplishing given business requirements.  
+1.	Before any analysis, an initial project management plan was drafted for the purpose of stakeholder communication. The project management plan included meeting schedules, milestones, and a final deliverables proposal outlining the project plan.   
 
     <p align="center">
       <img width="469" height="356" src="Images/PrjMgmt.jpg"/>
@@ -32,7 +32,7 @@ Although this is a fictional medical staffing agency, the data sets obtained for
       <em>A section from the project management plan highlighting<br>the projected schedule for completing this project.</em>
     </p>
 
-2.	Once a plan was drafted, the analysis began with finding publicly available datasets and vetting them for data integrity. Beyond them being from credible governmental sources, other data integrity factors were taken into consideration, such as the relevancy of the data, any potential biases present, data limitations, timeliness, and any other issues related to the data collection process.
+2.	Once the plan was drafted, analysis began with finding data sets that were publicly available and vetting them for data integrity. Beyond them being from credible government sources, other data integrity factors were taken into consideration, such as the relevancy of the data, potential biases, data limitations, timeliness, and any other issues related to the data collection process.
 
     <p align="center">
       <img width="300" height="80" src="Images/UScensuslogo.jpg"/>
@@ -42,13 +42,13 @@ Although this is a fictional medical staffing agency, the data sets obtained for
       <img width="282" height="156" src="Images/CDClogo.jpg"/>
     </p>
 
-3.	After the process of vetting the reliability of datasets, the three selected datasets were cleaned, formatted to be consistent with one another, and fully integrated into one large dataset.  
+3.	After the process of vetting the reliability of data sets, the three selected data sets were cleaned, formatted to be consistent with one another, and fully integrated into one large data set.  
 
     <p align="center">
       <img width="514" height="134" src="Images/exl_integration.jpg"/>
     </p>
 
-4.	Statistical analysis and hypothesis testing was performed on the sample data to find if there were any differences between vaccinated and unvaccinated groups. This was then followed by an interim report for stakeholders. 
+4.	Statistical analysis and hypothesis testing was performed on the sample data to find if there were any differences between vaccinated and unvaccinated groups. This was followed by an interim report for stakeholders. 
 
     <p align="center">
       <img width="404" height="183" src="Images/tTest.jpg"/>
@@ -61,7 +61,7 @@ Although this is a fictional medical staffing agency, the data sets obtained for
       <img width="469" height="592" src="Images/interimreport.jpg"/>
     </p>
     <p align="center">
-      <em>The interim report included descriptive analysis of the dataset, results of the hypothesis test,<br>and further plans for the remainder of the analysis.</em>
+      <em>The interim report included a descriptive analysis of the data set, the results of hypothesis testing,<br>and further plans for the remainder of the analysis.</em>
     </p>
 
 5.	Data visualizations were created in Tableau to complete the rest of the analysis. 
@@ -70,23 +70,23 @@ Although this is a fictional medical staffing agency, the data sets obtained for
       <img width="350" height="320" src="Images/histogram.jpg"/>
     </p>
     <p align="center">
-      <em>A box plot made in Tableau showing the distribution of influenza deaths<br>within different age groups.</em>
+      <em>A box plot made in Tableau shows the distribution of influenza deaths<br>within different age groups.</em>
     </p>
     
     <p align="center">
       <img width="490" height="300" src="Images/map.jpg"/>
     </p>
     <p align="center">
-      <em>A combination choropleth and graduated symbol map made in Tableau showing<br>size of vulnerable populations (blue circles) within each states overlayed<br>on the count of influenza deaths (yellow to red gradient).</em>
+      <em>A combination choropleth and graduated symbol map made in Tableau shows<br>the size of vulnerable populations (blue circles) within each state overlaid<br>on the count of influenza deaths (yellow to red gradient).</em>
     </p>
     
-6.	Final report was created in a dashboard format within Tableau. Performed the final presentation for stakeholder in recorded video form. 
+6.	Final report was created in a dashboard format within Tableau. The final presentation for stakeholders was performed in a recorded video format. 
 
 ### Key Findings
-- Hypothesis testing showed that higher vaccination rate does decrease the average influenza
-deaths, however, real impact only started to show when state rate reached at least 38% or higher. 
-- Higher concentration of vulnerable population had a much clearer impact on total death count then vaccination rates, thus prioritizing states with most vulnerable population was recommended for future staffing needs.
-- The states with the highest concentration of vulnerable population are California, Florida, Texas, and New York. These states should be prioritized when sending medical staff for the season. 
+- Hypothesis testing showed that higher vaccination rates do decrease the average number of influenza
+deaths. However, real impact only started to show when state rates reached 38% or higher. 
+- Higher concentration of vulnerable populations had a much clearer impact on total death count than vaccination rates. Therefore, prioritizing states with higher vulnerable populations was recommended for future staffing needs.
+- The states with the highest concentration of vulnerable populations are California, Florida, Texas, and New York. These states should be prioritized when sending medical staff for the season. 
 
 ### Deliverables
 ### [Interim Report](https://github.com/tiltonneena/InfluenzaSeason-Project/blob/main/InterimReport.pdf)
@@ -108,7 +108,7 @@ deaths, however, real impact only started to show when state rate reached at lea
 </p>
 
 ### Next Steps
-This analysis did not cover the seasonality of the flu season for each state. Next steps will take this into consideration to draft the most optimal scheduling for sending temporary medical workers to each state.  
+This analysis did not cover the seasonality of the influenza virus for each state. Next steps will take this into consideration to draft the most optimal scheduling for sending temporary medical workers to each state.  
 
 <p align="right">
   <a href="https://tiltonneena.github.io/portfolio/">Back to Portfolio Homepage</a>
